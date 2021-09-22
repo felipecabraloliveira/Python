@@ -1,2 +1,2 @@
 # Python
- Projetos de Python
+ Projetos de Python para desenvolvimento
