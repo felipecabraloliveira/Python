@@ -15,3 +15,5 @@ print('Tabuada do {}:'.format(n))
 while(i <= 10):
     print('{} x {}: {}'.format(n,i,n*i))
     i = i+1
+
+# Correção - OK

@@ -4,5 +4,7 @@
 
 # meu código
 
-m = int(input('Digite a metragem em metros: '))
-print('{} metro(s) é o mesmo que {} centímetros ou {} milímitros.'.format(m,m*100,m*1000))
+m = float(input('Digite a metragem em metros: '))
+print('{} metro(s) é o mesmo que {:.0f} centímetros ou {:.0f} milímitros.'.format(m,m*100,m*1000))
+
+# Correção - Ok

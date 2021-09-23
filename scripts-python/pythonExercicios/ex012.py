@@ -5,4 +5,6 @@
 
 p = float(input('Digite o preço do produto: R$ '))
 
-print('O produto custa R$ {} e com desconto de 5% sai por R${}'.format(p,p - (p/100*5)))
+print('O produto custa R$ {:.2f} e com desconto de 5% sai por R${:.2f}'.format(p,p - (p/100*5)))
+
+# Correção - OK
