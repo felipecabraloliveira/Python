@@ -1,6 +1,6 @@
 # Exercicio 007 do curso de Python - Curso em vídeo
 
-# Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sia média.
+# Desenvolva um programa que leia as duas notas de um aluno, calcule e mostre a sua média.
 
 # meu código
 
