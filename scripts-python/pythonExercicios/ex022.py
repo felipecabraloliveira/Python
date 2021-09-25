@@ -13,4 +13,11 @@ print('Nome com letras Minúsculas: {}'.format(nome.lower()))
 print('Quantidade de letras s/espaços: {} ' .format(len(nome.replace(' ', ''))))
 print('Quantidade de letras c/espaços: {}' .format(len(nome)))
 lista = nome.split()
-print('O primeiro nome possui {} letras.'.format(len(lista[1])))
+print('O seu primeiro nome {} possui {} letras.'.format(lista[0], len(lista[0])))
+
+# Correção - OK
+
+print('\n\nOutras formas de atingir os resultados!')
+nome = str(input('Digite o seu nome completo: ')).strip() # remover os espaços na captação do teclado
+print('Quantidade de letras s/espaços: {} ' .format(len(nome) - nome.count(' ')))
+print('Seu primeiro nome tem {} letras.'.format(nome.find(' '))) # vai encontrar a primeira posiçaõ vazia, mostrando a quantidade de letras.
