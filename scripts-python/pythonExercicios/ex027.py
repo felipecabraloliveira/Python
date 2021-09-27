@@ -15,6 +15,6 @@ print('Nome digitado: {}\nPrimeiro: {}\n Último: {}'.format(nome, lista[0], nom
 
 print('\n\n***Outra forma de atingir os resultados!***')
 n = str(input('Digite seu nome completo: ')).strip()
-nome = n.split();
+nome = n.split()
 print('Seu primeiro nome é: {}'.format(nome[0]))
 print('Seu último nome é: {}'.format(nome[len(nome)-1]))
