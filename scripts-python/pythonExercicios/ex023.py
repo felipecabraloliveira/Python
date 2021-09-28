@@ -5,7 +5,7 @@
 # Meu Código
 print('Realizando tarefa com String! Depende que o número digitado possua 4 casas')
 num = str(input('Digite um número entre 0 e 9999: '))
-print('Número digitado: {}\nUnidade: {}\nDezena:{}\nCentena: {}\nMilhar: {}'  .format(num, num[3], num[2], num[1], num[0]))
+print('Número digitado: {}\nUnidade:{}\nDezena:{}\nCentena:{}\nMilhar:{}'.format(num, num[3], num[2], num[1], num[0]))
 
 print('\nRealizando tarefa com Números Int!')
 num1 = int(input('Digite um número entre 0 e 9999: '))
