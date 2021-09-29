@@ -1,4 +1,4 @@
-# Python
+# Curso de Python
 Projeto desenvolvido no decorrer do curso de Python realizado no curso em vídeo. 
 
  Contendo scripts de todas as aulas e exercícios praticados no decorrer do curso.
