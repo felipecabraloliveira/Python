@@ -1,0 +1,1 @@
+# Exercício 038 do curso de Python - Curso em vídeo
