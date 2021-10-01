@@ -23,6 +23,6 @@ print('Pagamento em {} anos com {}{}{} parcelas mensais de R$ {}{:.2f}{}'
 print('Analisando...')
 sleep(3)
 if (parcela / vsalario) * 100 > 30:
-    print('{}Que pena! Seu empréstimo foi Negado!{}'.format(cores['red'], cores['remove']))
+    print('{}Que pena! O empréstimo foi Negado!{}'.format(cores['red'], cores['remove']))
 else:
-    print('{}Que Maravilha! Seu empréstimo foi Aprovado!{}'.format(cores['blue'], cores['remove']))
+    print('{}Que Maravilha! O empréstimo foi Aprovado!{}'.format(cores['blue'], cores['remove']))
