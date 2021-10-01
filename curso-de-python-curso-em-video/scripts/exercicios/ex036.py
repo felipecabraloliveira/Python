@@ -18,7 +18,8 @@ parcela = vcasa / (anos * 12)
 print('\nDados do Empréstimo!')
 print('\nValor da casa {}R$ {:.2f}{}'.format(cores['red'], vcasa, cores['remove']))
 print('Valor do salário {}R$ {:.2f}{}'.format(cores['g'], vsalario, cores['remove']))
-print('Pagamento em {} anos com {}{}{} parcelas mensais de R$ {}{:.2f}{}'.format(anos, cores['g'], anos * 12, cores['remove'], cores['red'], parcela, cores['remove']))
+print('Pagamento em {} anos com {}{}{} parcelas mensais de R$ {}{:.2f}{}'
+      .format(anos, cores['g'], anos * 12, cores['remove'], cores['red'], parcela, cores['remove']))
 print('Analisando...')
 sleep(3)
 if (parcela / vsalario) * 100 > 30:
