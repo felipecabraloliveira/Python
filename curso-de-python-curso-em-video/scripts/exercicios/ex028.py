@@ -7,7 +7,7 @@
 # Meu Código
 from random import randrange
 n = int(input('Qual o número o computador pensou entre 0 e 5: '))
-p = randrange(1,5)
+p = randrange(1, 5)
 if n == p:
     print('Parabéns você acertou o número pensado pelo computador! número: {}'.format(n))
 else:
