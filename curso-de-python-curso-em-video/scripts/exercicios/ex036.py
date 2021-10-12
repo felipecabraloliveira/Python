@@ -24,5 +24,9 @@ print('Analisando...')
 sleep(3)
 if (parcela / vsalario) * 100 > 30:
     print('{}Que pena! O empréstimo foi Negado!{}'.format(cores['red'], cores['remove']))
+    # Correção: Adicionando valor minimo
+    minimo = vsalario * 30 / 100
+    print('Você pode comprometer no máximo {:.2f} mensais.'.format(minimo))
 else:
     print('{}Que Maravilha! O empréstimo foi Aprovado!{}'.format(cores['blue'], cores['remove']))
+# Correção - Ok
