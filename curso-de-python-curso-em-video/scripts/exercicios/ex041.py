@@ -7,7 +7,6 @@
 # – Até 19 anos: JÚNIOR
 # – Até 25 anos: SÊNIOR
 # – Acima de 25 anos: MASTER
-
 from time import sleep
 from datetime import date
 cores = {'blue': '\033[1;34m', 'red': '\033[1;31m', 'yellow': '\033[1;33m', 'g': '\033[1;32m',
@@ -33,3 +32,16 @@ elif 19 < idade <= 25:
 else:
     print('O atleta completa {} anos em {}, categoria: {}MASTER!{}'
           .format(idade, year, cores['magenta'], cores['remove']))
+# Correção - Ok
+year = date.today().year # Forma simplificada para obter o ano atual
+# Não temos a necessidade de testar a validação anteior simplificando os elifs
+if idade <=9:
+    print('MIRIM')
+elif idade <= 14:
+    print('INFANTIL')
+elif idade <= 19:
+    print('JUNIOR')
+elif idade <= 25:
+    print('SENIOR')
+else:
+    print('MASTER')
