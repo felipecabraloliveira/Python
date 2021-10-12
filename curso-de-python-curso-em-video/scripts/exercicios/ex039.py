@@ -28,3 +28,5 @@ else:
     print('Você deve se alistar em breve!')
     print('{}O ano do seu alistamento é {}, faltam apenas {} ano(s) para se alistar!{}'
           .format(cores['g'], ano + 18, tempo, cores['remove']))
+# Correção
+data = date.today().year # forma mais simples de obter o ano atual
