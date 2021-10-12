@@ -22,3 +22,4 @@ elif 5 <= med <= 6.99:
     print('Sua média foi de {:.2f}, {}Recuperação!{}'.format(med, cores['magenta'], cores['remove']))
 else:
     print('Sua média foi de {:.2f}, {}Reprovado!{}'.format(med, cores['red'], cores['remove']))
+# Correção - Ok
