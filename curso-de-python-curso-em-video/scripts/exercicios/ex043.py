@@ -17,7 +17,7 @@ print('*' * 31)
 peso = float(input('Digite o seu peso? '))
 alt = float(input('Digite a sua altura? '))
 imc = peso / alt ** 2
-print('Seu IMC é: {:.2f}, classificação: '.format(imc))
+print('Seu IMC é: {:.1f}, classificação: '.format(imc), end='')
 if imc < 18.5:
     print('Abaixo do peso!')
 elif 18.5 <= imc < 25:
@@ -26,7 +26,8 @@ elif 25 <= imc < 30:
     print('Sobrepeso')
 elif 30 <= imc < 40:
     print('Obesidade')
-elif imc > 40:
+elif imc >= 40:
     print('Obesidade Mórbida')
 else:
     print('Valores incorretos!')
+# Correção - Ok
