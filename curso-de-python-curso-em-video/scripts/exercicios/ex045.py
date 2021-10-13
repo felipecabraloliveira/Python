@@ -96,4 +96,3 @@ elif computador == 2: # Tesoura
         print('Empate')
     else:
         print('{}Opção inválida!{}'.format(cores['red'], cores['remove']))
-        
