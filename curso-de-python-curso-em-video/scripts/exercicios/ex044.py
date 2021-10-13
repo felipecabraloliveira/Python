@@ -20,20 +20,22 @@ print('[1] à vista dinheiro/cheque')
 print('[2] à vista no cartão')
 print('[3] em até 2x no cartão')
 print('[4] 3x ou mais no cartão')
-
 op = int(input('Selecione a forma de pagamento: '))
-
 if op == 1:
     preco = preco - (preco * 10 /100)
 elif op == 2:
     preco = preco - (preco * 5 / 100)
 elif op == 3:
-    parc = int(input('Quantas parcelas? '))
+    parc = 2
     vparc = preco / parc
-    print('Sua compra será parcelada em {} de {:.2f}. '.format(parc, vparc))
-else:
+    print('Sua compra será parcelada em {} vezes de {:.2f} sem juros. '.format(parc, vparc))
+elif op == 4:
     parc = int(input('Quantas parcelas? '))
     preco = preco + (preco * 20 /100)
     vparc = preco / parc
-    print('Sua compra será parcelada em {} de {:.2f} com Juros. '.format(parc, vparc))
+    print('Sua compra será parcelada em {} de R${:.2f} com Juros. '.format(parc, vparc))
+else:
+    print('{}Opcao inválida de pagamento!{}'.format(cores['red'], cores['remove']))
+    preco = 0
 print('Seu produto vai custar R$ {:.2f} no final.'.format(preco))
+# Correção - Ok
