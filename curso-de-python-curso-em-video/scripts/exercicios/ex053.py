@@ -25,3 +25,8 @@ if inverso == tratamento:
 else:
     print('Não é um palindromo!')
 print('Palavra {} x Inverso {}'.format(tratamento, inverso))
+# Correção - Ok
+# Outra forma de atingir o objetivo
+tratamento = frase.split()
+junto = ''.join(tratamento)
+print(tratamento)
