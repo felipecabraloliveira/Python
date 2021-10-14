@@ -8,7 +8,7 @@ print('*' * 54)
 print(' ' * 6 + 'Números Ímpares e soma dos Múltiplos de 3!')
 print('*' * 54)
 soma = 0
-cont = 0 # Add na correção
+cont = 0  # Add na correção
 for c in range(1, 500, 2):
     if c % 3 == 0:
         soma += c
