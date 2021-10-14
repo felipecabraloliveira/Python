@@ -14,3 +14,9 @@ print('{}Imprimindo na tela números pares de 1 a 50!{}'.format(cores['blue'], c
 for c in range(1, 51):
     if c % 2 == 0:
         print(c)
+# Correção - Ok
+print('\n')
+print('Outra forma de imprimir os números pares, na mesma linha!\n'
+      'Alterando o laço para pular de 2 em dois, encurtando as interações!\n')
+for c in range(2, 51, 2):
+        print(c, end=' ')
