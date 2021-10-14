@@ -23,4 +23,5 @@ if cont == 2:
     print('Portando, é PRIMO!')
 else:
     print('Portando, não é PRIMO!')
-# Correção - OK
+# Correção OK
+# Alterado.
