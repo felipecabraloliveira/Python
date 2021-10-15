@@ -10,9 +10,18 @@ cores = {'blue': '\033[1;34m', 'red': '\033[1;31m', 'yellow': '\033[1;33m', 'g':
 print('*' * 32)
 print(' ' * 6 + 'Maior e Menor peso!')
 print('*' * 32)
-
-for c in range(1, 5):
-    peso = float(input('Digite o peso da pessoa {}: '))
-    if peso > peso:
-
-        # Continuar
+maior = 0
+menor = 0
+for c in range(1, 6):
+    peso = float(input('Digite o peso da pessoa {}: '.format(c)))
+    if c == 1:
+        maior = peso
+        menor = peso
+    else:
+        if peso > maior:
+            maior = peso
+        if peso < menor:
+            menor = peso
+print('O maior peso é {}Kg\n'
+      'O menor peso é {}Kg'.format(maior, menor))
+# Correção - OK
