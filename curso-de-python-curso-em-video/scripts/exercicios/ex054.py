@@ -20,4 +20,5 @@ for c in range(1, 8):
         menor += 1
     else:
         maior += 1
-print('{}{}{} pessoas ainda não atingiram a maioridade e {}{}{} já são maiores de idade!'.format(cores['g'], menor, cores['remove'], cores['red'], maior, cores['remove']))
+print('{}{}{} pessoas ainda não atingiram a maioridade e {}{}{} já são maiores de idade!'
+      .format(cores['g'], menor, cores['remove'], cores['red'], maior, cores['remove']))
