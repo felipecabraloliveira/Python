@@ -15,7 +15,7 @@ nome = ''
 idade = ''
 sexo = ''
 for c in range(1, 3):
-    nome[] += str(input('Digite o nome da pessoa {}: '.format(c)))
+    nome = nome +' '+ str(input('Digite o nome da pessoa {}: '.format(c)))
     idade += str(input('Digite a Idade da pessoa {}: '.format(c)))
     sexo += str(input('Digite o Sexo da pessoa {}: '.format(c)))
     print('\n')
