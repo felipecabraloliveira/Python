@@ -13,12 +13,12 @@ print('*' * 29)
 print(' ' * 3 + 'Detector de Palíndromo!')
 print('*' * 29)
 frase = str(input('Escreva uma frase: ')).upper().strip()
-tratamento = frase.replace(' ','')
+tratamento = frase.replace(' ', '')
 qtd = len(tratamento)
 inverso = ''
 cont = 0
 for c in range(qtd-1, -1, -1):
-   # print(c)
+    # print(c)
     inverso += tratamento[c]
 if inverso == tratamento:
     print('É um palindromo!')
@@ -29,4 +29,6 @@ print('Palavra {} x Inverso {}'.format(tratamento, inverso))
 # Outra forma de atingir o objetivo
 tratamento = frase.split()
 junto = ''.join(tratamento)
-print(tratamento)
+# Sem utilizar o for
+inverso = junto[::-1]
+print(inverso)
