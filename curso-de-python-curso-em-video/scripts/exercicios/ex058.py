@@ -16,3 +16,19 @@ while jogador != comp:
     tentativas += 1
 print('Parabéns Você acertou!!! O número pensado foi o {} e você levou {} tentativas para acertar.'
       .format(comp, tentativas))
+# Correção
+# Outra forma de atingir o resultado
+print('\n')
+acertou = False
+palpites = 0
+while not acertou:
+    jogador = int(input('Qual a sua jogada? '))
+    palpites += 1
+    if jogador == comp:
+        acertou = True
+    else:
+        if jogador < comp:
+            print('Tente novamente com um número maior!')
+        else:
+            print('Tente novamente com um número menor!')
+print('Acertou com {} tentativas. Parabéns!'.format(palpites))
