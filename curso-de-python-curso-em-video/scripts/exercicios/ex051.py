@@ -9,14 +9,14 @@ print(' ' * 6 + '10 Termos de uma PA!')
 print('*' * 32)
 pri = int(input('Primeiro termo: '))
 razao = int(input('Razão: '))
-for c in range(pri, razao * 10 , razao):
-    print(c, end= ' ')
-    print('->', end= ' ')
+for c in range(pri, razao * 10, razao):
+    print(c, end=' ')
+    print('->', end=' ')
 print('Acabou!')
 # Correção - Ok
 # Utilizar matematica para resolver.
 dec = pri + (10 - 1) * razao
 for c in range(pri, dec + razao, razao):
-    print(c, end= ' ')
-    print('->', end= ' ')
+    print(c, end=' ')
+    print('->', end=' ')
 print('Acabou!')
