@@ -7,7 +7,11 @@ cores = {'blue': '\033[1;34m', 'red': '\033[1;31m', 'yellow': '\033[1;33m', 'g':
 print('*' * 32)
 print(' ' * 6 + 'Validação de Dados!')
 print('*' * 32)
-sexo = ' '
+sexo = str(input('Digite o sexo [M/F]: ')).upper().strip()[0]
 while sexo not in 'MF':
-    sexo = str(input('Digite o sexo [M/F]: ')).upper().strip()
-print('Você selecionou o sexo {}' .format(sexo))
+    sexo = str(input('Dados inválidos. Digite novamente o sexo [M/F]: ')).upper().strip()[0]
+cor = '\033[1;35m'
+if sexo == 'M':
+    cor = '\033[1;34m'
+print('{}Você selecionou o sexo {}{}' .format(cor, sexo, cores['remove']))
+# Correção - Ok
