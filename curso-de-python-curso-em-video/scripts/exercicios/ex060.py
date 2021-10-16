@@ -8,11 +8,30 @@ print('*' * 29)
 print(' ' * 6 + 'Fatorial!!!')
 print('*' * 29)
 num = int(input('Digit um número: '))
-cont = 1
-conta = 0
-fatorial = num
-while cont < num - 1:
-    conta = fatorial * (num - cont)
-    fatorial = conta
-    cont += 1
-print('O fatorial de {}! é igual a {}'.format(num, fatorial))
+cont = num
+fatorial = 1
+while cont > 0:
+    print('{}'.format(cont), end='')
+    print(' x ' if cont > 1 else ' = ', end='')
+    fatorial *= cont
+    cont -= 1
+print('{}'.format(fatorial))
+
+# Correção - Ok
+print('\nOutra forma de atingir o objetivo, de forma mais simples!')
+from math import factorial
+n = int(input('Digite o número: '))
+f = factorial(n)
+print('O fatorial de {} é {}'.format(n, f))
+
+# FOR
+print('\nUtilizando FOR')
+num = int(input('Digit um número: '))
+cont = num
+fatorial = 1
+for c in range(num, 0, -1):
+    print('{}'.format(cont), end='')
+    print(' x ' if cont > 1 else ' = ', end='')
+    fatorial *= cont
+    cont -= 1
+print('{}'.format(fatorial))
