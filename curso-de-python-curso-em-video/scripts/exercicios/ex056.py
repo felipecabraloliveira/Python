@@ -16,7 +16,7 @@ for c in range(1, 5):
     print('{}° Pessoa'.format(c))
     nome = str(input('Digite o nome: ')).strip().upper()
     idade = int(input('Digite a Idade: '))
-    sexo = str(input('Digite o Sexo [F/M]: ')).upper()
+    sexo = str(input('Digite o Sexo [F/M]: ')).strip().upper()
     media += idade
     if sexo == 'M':
         if idade > vidade:
@@ -27,5 +27,6 @@ for c in range(1, 5):
             m20 += 1
     print('*-' * 16)
 print('Média de idade:  {} anos'.format(media / 4))
-print('Homem mais velho:  {}'.format(vnome))
+print('Homem mais velho:  {} com {} anos'.format(vnome, vidade))
 print('Mulheres com menos de 20 anos: {}'.format(m20))
+# Correção - OK
