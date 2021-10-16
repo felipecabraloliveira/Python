@@ -9,6 +9,7 @@
 # Seu programa deverá realizar a operação solicitada em cada caso.
 
 # Meu Código
+from time import sleep
 print('*' * 29)
 print(' ' * 6 + 'Menu de Opções!!!')
 print('*' * 29)
@@ -39,6 +40,11 @@ while op != 5:
     elif op == 4:
         n1 = int(input('Digite o primeiro Valor: '))
         n2 = int(input('Digite o segundo Valor: '))
+# Faltaou opção 5 para não mostrar erro de opção inválida.
+    elif op == 5:
+        print('Finalizando...')
     else:
         print('Opção inválida! Tente novamente...')
+    sleep(1)
 print('Fim do programa!')
+# Correção - Ok
