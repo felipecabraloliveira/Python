@@ -22,3 +22,4 @@ while mais != 0:
     print('Pausa')
     mais = int(input('\nQuantos termos você quer mostrar a mais: '))
 print('A progressão foi finalizada com {} termos exibidos.'.format(vezes))
+# Correção - Ok
