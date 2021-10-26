@@ -19,3 +19,4 @@ while cont <= elemento:
     atu = prox
     cont += 1
 print(' -> Pausa')
+# Correção - Ok
