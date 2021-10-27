@@ -16,3 +16,4 @@ while num != 999:
         soma += num
         cont += 1
 print('A soma dos números é {} e foi digitado {} números!'.format(soma, cont))
+# Correção - OK
