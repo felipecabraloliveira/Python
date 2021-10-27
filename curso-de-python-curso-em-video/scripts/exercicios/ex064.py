@@ -6,9 +6,9 @@
 # (desconsiderando o flag).
 
 # Meu Código
-print('*' * 33)
-print(' ' * 5 + 'Tratando vários valores vs1.0')
-print('*' * 33)
+print('*' * 37)
+print(' ' * 4 + 'Tratando vários valores vs1.0')
+print('*' * 37)
 cont = soma = num = 0
 while num != 999:
     num = int(input('Digite um número ou [999 para sair]: '))
