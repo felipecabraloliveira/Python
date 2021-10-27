@@ -25,3 +25,4 @@ while continuar == 'S':
     continuar = str(input('Quer continuar? [S/N] ')).upper().strip()[0]
 print('A média dos {} números digitados é {:.2f}'.format(cont, soma / cont))
 print('O maior número foi o {} e o menor foi o {}'.format(nummaior, nummenor))
+# Correção - OK
