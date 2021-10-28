@@ -23,7 +23,7 @@ while True:
     soma += n
 # print('A som vale {}'.format(soma))
 
-# utilizando a f string
+# utilizando as fstrings do Python.
 print(f'A soma vale {soma}')
 
 nome = 'Jose'
