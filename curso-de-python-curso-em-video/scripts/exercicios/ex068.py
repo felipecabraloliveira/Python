@@ -8,7 +8,7 @@
 
 from random import randint
 print('*' * 37)
-print(' ' * 11 + 'Jogo do Par ou ímpar')
+print(' ' * 8 + 'Jogo do Par ou ímpar')
 print('*' * 37)
 v = 0
 while True:
