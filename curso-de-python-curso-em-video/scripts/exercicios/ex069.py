@@ -1,4 +1,4 @@
-# Exercício 068 do curso de Python - Curso em vídeo
+# Exercício 069 do curso de Python - Curso em vídeo
 
 # Crie um programa que leia a idade e o sexo de várias pessoas.
 # A cada pessoa cadastrada, o programa deverá perguntar se o usuário quer ou não continuar.
