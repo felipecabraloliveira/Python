@@ -13,11 +13,10 @@ from random import randint
 
 n = (randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10), randint(1, 10))
 print('Sorteado o valor {}'.format(n))
-print('Os valores sorteados foram: ')
+print('\nOs valores sorteados foram: ')
 for c in n:
     print(f'{c} ', end='')
 print(f'\nO Maior valor sorteado foi {max(n)}')
 print(f'O Menor valor sorteado foi {min(n)}')
 
 # Correção - Ok
-
