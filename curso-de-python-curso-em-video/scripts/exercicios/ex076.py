@@ -22,3 +22,5 @@ for c in range(0, len(produtos)):
     else:
         print(f'R${produtos[c]:>7.2f}')
 print('=' * 45)
+
+# Correção- OK
