@@ -31,3 +31,4 @@ for n in num:
     if n % 2 == 0:
         print(f'{n} ', end='')
 
+# Correção - Ok
