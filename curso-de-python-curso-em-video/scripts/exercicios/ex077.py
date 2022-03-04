@@ -18,3 +18,4 @@ for c in palavras:
         if letra.lower() in 'aáãâeéêiíoõuú':
             print(f'{letra.upper()} ', end='')
 # Correção -Ok
+#teste#
