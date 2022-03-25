@@ -1,3 +1,5 @@
+# Aula 16 do Curso de Python do Curso em Vídeo.
+
 lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim', 'Batata Frita')
 print(lanche[1])
 print('\n\n')
