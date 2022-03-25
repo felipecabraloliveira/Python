@@ -47,7 +47,7 @@ print(num)
 
 print('\nNova Lista!')
 valores = list() # Criando uma lista vázia.
-valores = [] # outra forma de criar lista vázia.
+valores = [] # outra forma de criar uma lista vázia.
 
 valores.append(5)
 valores.append(9)
