@@ -27,3 +27,12 @@ print('=' * 37)
 print(f'Lista completa: {valores}')
 print(f'Lista de números Pares: {vpar}')
 print(f'Lista de números Ímpares: {vimpar}')
+
+# Outra forma:
+# Criando um vetor para ler a lista completa e separar em valores pares e ímpares:
+for p, v in enumerate(valores):
+    if v % 2 == 0:
+        vpar.append(v)
+    elif v % 2 == 1:
+        vimpar.append(v)
+# Correção - Ok
