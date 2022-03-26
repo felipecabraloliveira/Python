@@ -9,22 +9,26 @@ print(' ' * 8 + 'Lista - Maior e Menor')
 print('=' * 37)
 
 valores = []
-menor = 9999999
+menor = 0
 maior = 0
-
 for c in range(0,5):
     valores.append(int(input(f'Digite um valor para a posição {c}: ')))
-
-for c, v in enumerate(valores):
-    if(v <= menor):
-        menor = v
-    if(v >= maior):
-        maior = v
+    if c == 0:
+        maior = menor = valores[c]
+    else:
+        if valores[c] > maior:
+            maior = valores[c]
+        if valores[c] < menor:
+            menor = valores[c]
 
 print(f'\nVocê digitou os valores {valores}')
+print(f'O Maior valor da lista foi {maior} nas posições: ',end='')
 for c, v in enumerate(valores):
-
-    if(v == maior):
-        print(f'\nO menor valor da lista foi {maior} na posição {c}')
-    if (v == menor):
-        print(f'\nO menor valor da lista foi {menor} na posição {c}')
+    if v == maior:
+        print(f'{c}...', end='')
+print()
+print(f'\nO Menor valor da lista foi {menor} nas posições: ',end='')
+for c, v in enumerate(valores):
+    if v == menor:
+        print(f'{c}...', end='')
+# Correção - OK
