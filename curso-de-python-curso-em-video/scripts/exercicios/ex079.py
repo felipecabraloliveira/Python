@@ -12,7 +12,6 @@ print('=' * 37)
 
 cont = ''
 valores = []
-
 while True:
     num = int(input('Digite um valor: '))
     if num in valores:
@@ -24,8 +23,10 @@ while True:
     if cont == 'N':
         break
 
-print('\nAnalisando os dados...')
+print('-=' * 30)
+print('Analisando os dados...')
 sleep(2)
 print(f'\nOs valores digitados foram: {valores}')
 valores.sort()
-print(f'\nColocando a lista em ordem crescente: {valores}')
+print(f'Colocando a lista em ordem crescente: {valores}')
+#Correção - OK
