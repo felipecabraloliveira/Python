@@ -18,3 +18,4 @@ for p in range(0, 3):
     for q in range(0, 3):
         print(f'[{matriz[p][q]:^5}]', end='')
     print()
+# Correção -OK
