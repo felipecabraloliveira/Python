@@ -8,7 +8,7 @@ print('=' * 37)
 print(' ' * 4 + 'Lista ordenada sem repetições')
 print('=' * 37)
 valores = list()
-for c in range(0,5):
+for c in range(0, 5):
     num = int(input('Digite um valor: '))
     if c == 0 or num > valores[-1]:
         valores.append(num)
@@ -22,4 +22,4 @@ for c in range(0,5):
                 break
             pos += 1
 print(f'Os valores digitados foram {valores}')
-#Correçã - Ok
+# Correçã - Ok
