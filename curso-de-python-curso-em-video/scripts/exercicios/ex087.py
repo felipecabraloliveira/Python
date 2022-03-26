@@ -32,3 +32,4 @@ for c in range(0, 3):
 print(f'\nA soma dos números pares é {par}.')
 print(f'A soma da terceira coluna é {soma}.')
 print(f'O maior valor da segunda Linha é {mvalor}.')
+# Correção - OK
