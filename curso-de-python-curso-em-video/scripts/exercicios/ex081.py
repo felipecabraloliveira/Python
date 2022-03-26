@@ -20,11 +20,16 @@ while True:
     qt += 1
     if cont == 'N':
         break
-print('-' *30)
-print(f'\nForam digitados {qt} número(s).')
-valores.sort(reverse= True)
+print('=' * 30)
+print(f'Foram digitados {qt} número(s).')
+valores.sort(reverse=True)
 print(f'Lista em ordem decrescente: {valores}')
 if 5 in valores:
-   print(f'O valor 5 {cores["blue"]}consta{cores["remove"]} na lista!')
+    print(f'O valor 5 {cores["blue"]}consta{cores["remove"]} na lista!')
 else:
     print('O valor 5 {}Não consta{} na lista!'.format(cores['red'], cores['remove']))
+
+# Outra forma de verificar a quantidade de valores na lista:
+print(f'\nOutra forma: '
+      f'\nQuantidade de valores digitados na lista: {len(valores)}')
+# Correção - OK
