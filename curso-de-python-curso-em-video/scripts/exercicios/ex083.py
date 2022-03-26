@@ -12,7 +12,7 @@ cores = {'blue': '\033[1;34m', 'red': '\033[1;31m', 'yellow': '\033[1;33m', 'g':
 aberto = 0
 fechado = 0
 exp = str(input('Digite a expressão: ')).strip()
-for p, v in enumerate(exp):
+for v in exp:
     if v == '(':
         aberto += 1
     elif v == ')':
@@ -23,3 +23,21 @@ if aberto == fechado:
 else:
     print(f'A expressão está {cores["red"]}Incorreta!{cores["remove"]}')
 print(f'Expressão: {exp}')
+
+# Outra forma:
+print("\nOutra forma:")
+expr = str(input('Digite a expressão: ')).strip()
+pilha = []
+for simb in expr:
+    if simb == '(':
+        pilha.append('(')
+    elif simb == ')':
+        if len(pilha) > 0:
+            pilha.pop()
+        else:
+            pilha.append(')')
+            break
+if len(pilha) == 0:
+    print('Sua expressão está válida!')
+else:
+    print('Sua expressão não é válida!')
