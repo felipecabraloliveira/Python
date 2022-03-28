@@ -26,3 +26,31 @@ for c in range(0, jogos):
     lista[c].sort()
     print(f'Jogo N°{c+1}: {lista[c]}')
     sleep(1)
+
+# Outra forma
+
+print('\nOutra forma!')
+
+combo = list()
+jogo = []
+quant = int(input('Quantos jogos você quer que eu sortei? '))
+tot = 1
+while tot <= quant:
+    cont = 0
+    while True:
+        numero = randint(1, 60)
+        if numero not in combo:
+            combo.append(numero)
+            cont += 1
+        if cont >= 6:
+            break
+    combo.sort()
+    jogo.append(combo[:])
+    combo.clear()
+    tot += 1
+print('=' * 3, f'Sorteando {quant} Jogos', '=' * 3)
+for i, l in enumerate(jogo):
+    print(f'Jogo {i+1}: {l}')
+    sleep(1)
+print('=' * 7, 'Boa sorte!', '=' * 7)
+# Correção - OK
