@@ -26,3 +26,4 @@ if trabalhador['CTPS'] != 0:
 print('-=' * 30)
 for i, v in trabalhador.items():
     print(f'{i}: {v}')
+# Correção - Ok
