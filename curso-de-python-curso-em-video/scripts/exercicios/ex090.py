@@ -19,3 +19,9 @@ print('*' * 37)
 print(f'Nome: {aluno["Nome"]}\n'
       f'Média: {aluno["Media"]}\n'
       f'Situação: {aluno["Situação"]}')
+print('*' * 37)
+# Correção - Ok
+# Outra forma de exibir valores, usando um laço
+print('\nExibindo valores com laço!')
+for k, v in aluno.items():
+    print(f'{k} é igual a {v}')
