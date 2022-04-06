@@ -27,3 +27,4 @@ print('=' * 37)
 for k, v in enumerate(jogadores['Gols']):
     print(f'Na partida {k} fez {v} gols.')
 print(f'Foi um total de {jogadores["Total"]} gols.')
+# Correção - Ok
