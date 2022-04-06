@@ -1,4 +1,4 @@
-# Exercício 092 do curso de Python - Curso em vídeo
+# Exercício 093 do curso de Python - Curso em vídeo
 
 # Crie um programa que gerencie o aproveitamento de um jogador de futebol.
 # O programa vai ler o nome do jogador e quantas partidas ele jogou.
